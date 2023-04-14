@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portafolio - Adan Ramirez</title>
+        <link rel="stylesheet" href="css/index.css">
+        <!-- CSS Animated On Scroll -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <!-- JavaScript FontAwesome -->
+        <script src="https://kit.fontawesome.com/6bce252232.js" crossorigin="anonymous"></script>
+        <!-- <i class="fa-brands fa-square-js fa-beat fa-2xl" style="color: #ffffff"></i> -->
+    </head>
+    <body>
+        <header>
+            <a href="" class="brand">
+                <img src="img/fox.png" alt="" id="logo">
+                Adan Ramirez
+            </a>
+            <div class="menu-btn"></div>
+            <div class="navigation">
+                <div class="navigation-items">
+                    <a href="#">INICIO</a>
+                    <a href="#sobremi">SOBRE MI</a>
+                    <a href="">SKILLS</a>
+                    <a href="#curriculum">CURRICULUM</a>
+                    <a href="">PORTAFOLIO</a>
+                    <a href="">CONTACTO</a>
+                </div>
+            </div>
+        </header>
+        
+        <section class="home">
+            <video
+                src="video/background.mp4"
+                autoplay
+                poster="img/banner2.jpg"
+                muted
+                loop
+                class="video-slide"
+            ></video>
+            <div class="content">
+                <h1>
+                    <img src="img/fox.png" alt="" id="logo">
+                    <span>HOLA, SOY ADAN RAMIREZ UN</span>
+                    <br>
+                    <span class="multitext"></span>
+                </h1>
+                <p>
+                    Soy un joven profesional, con pasión por su profesión, excelente capacidad organizativa y facilidad para el trabajo en equipo.
+                    <br>
+                    Me gusta desarrollar profesionalmente en diferentes lenguajes y/o frameworks enfocados al desarrollo web.
+                    <br>
+                    Desarrollador de software determinado y bien informado que puede pensar fuera de la caja.
+                </p>
+                <a href="">Saber mas</a>
+            </div>
+            <div class="media-icons">
+                <a href="https://www.facebook.com/KatzuneStarky/" target="_blank">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="https://wa.me/6123050906" target="_blank">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+                <a href="https://t.me/KatzuneStarky" target="_blank">
+                    <i class="fa-brands fa-telegram"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/adanramirezcinseros/" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+            </div>
+        </section>
+
+        <section class="sobremi" id="sobremi">
+            <lottie-player
+                src="https://assets3.lottiefiles.com/packages/lf20_iorpbol0.json"
+                background="transparent"
+                speed="1"
+                style="width: 500px; height: 500px;"
+                loop
+                autoplay
+            ></lottie-player>
+        </section>
+
+        <section class="curriculum" id="curriculum">
+
+            <div class="evento">
+                <div class="foto" data-aos="fade-up">
+                    <img src="https://www.uabcs.mx/dasc/mati/img/logouabcs1.png" alt="">
+                </div>
+                <h3 class="fecha" data-aos="fade-down">AGOSTO 2017 — NOVIEMBRE 2022</h3>
+            </div>
+
+            <div class="evento">
+                <div class="foto" data-aos="fade-up">
+                    <img src="https://www.combustiblesbajasur.com/images/Logo_combustibles.png" />
+                </div>
+                <h3 class="fecha" data-aos="fade-down">ENERO 2022 — JULIO 2022</h3>            
+            </div>
+
+            <div class="evento">
+                <div class="foto" data-aos="fade-up">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Tata_Consultancy_Services_Logo.svg/2560px-Tata_Consultancy_Services_Logo.svg.png" alt="">
+                </div>
+                <h3 class="fecha" data-aos="fade-down">JULIO 2022 — DICIEMBRE 2022
+                </h3>
+            </div>
+        </section>
+
+        <!-- JavaScript -->
+        <script src="js/btn.js"></script>
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+        <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+        <script src="js/typed.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init({
+                duration: 1000,
+                once: false,
+                mirror: true
+            });
+        </script>
+    </body>
+</html>
